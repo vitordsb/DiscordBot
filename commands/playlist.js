@@ -3,9 +3,9 @@ const {SlashCommandBuilder} = require("discord.js")
 module.exports = {
     data: new SlashCommandBuilder()
         .setName("playlist")
-        .setDescription("Playlist que fiz para o meu mozão"),
+        .setDescription("Playlist foco de estudo"),
 
     async execute(interaction) {
-        await interaction.reply(`https://www.youtube.com/watch?v=y0wzDTutlmE&list=PLfl4341BWE1mnEa3aO8nsdazbqz6Uni6o&index=5`)
+        await interaction.reply(`https://www.youtube.com/watch?v=P3kIHuvqRZ0&list=PLfl4341BWE1kN35fCGZ3C0JQ5bCoebGsH&index=3`)
     }
 }
